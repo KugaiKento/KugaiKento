@@ -1842,8 +1842,16 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-hero-pattern {
-  background-image: url('../img/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg');
+.bg-\[url\=\(\'\/img\/nikita-kachanovsky-OVbeSXRk_9E-unsplash\.jpg\'\)\] {
+  background-color: url=('/img/nikita-kachanovsky-OVbeSXRk 9E-unsplash.jpg');
+}
+
+.bg-\[url\=\(\'img\/nikita-kachanovsky-OVbeSXRk_9E-unsplash\.jpg\'\)\] {
+  background-color: url=('img/nikita-kachanovsky-OVbeSXRk 9E-unsplash.jpg');
+}
+
+.bg-\[url\=\(\'\.\/img\/nikita-kachanovsky-OVbeSXRk_9E-unsplash\.jpg\'\)\] {
+  background-color: url=('./img/nikita-kachanovsky-OVbeSXRk 9E-unsplash.jpg');
 }
 
 .decoration-slice {
