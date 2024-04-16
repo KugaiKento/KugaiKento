@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
-        'hero-pattern' : "url('img/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg')",
-        'hero-pattern2' : "url('img/0_3.jpg')",
+        'hero-pattern' : "url('../img/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg')",
+        'hero-pattern2' : "url('../img/0_3.jpg')",
       }
     },
   },
