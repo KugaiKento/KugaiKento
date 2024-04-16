@@ -1,1 +1,1 @@
-# Kugai Kento：久貝建都
+# Kugai Kento
