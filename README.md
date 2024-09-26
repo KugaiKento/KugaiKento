@@ -1,4 +1,4 @@
-# Kugai Kento
+# 久貝建都
 ## My Skills
 ![My Skills](https://skillicons.dev/icons?i=javascript,html,css,react,,&theme=dark)
 
