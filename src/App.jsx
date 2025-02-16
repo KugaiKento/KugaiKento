@@ -17,7 +17,7 @@ function App() {
         </Flex>
         <Center mt={20}>
           <Box color={"white"} justifyItems="center">
-            <Image src="src\assets\kento.png" w={220} h={220} borderRadius="50%" mb={4} fit="cover"></Image>
+            <Image src="./images/kento.png" w={220} h={220} borderRadius="50%" mb={4} fit="cover"></Image>
             <Heading>WebEngineer</Heading>
             <Image src="https://skillicons.dev/icons?i=js,html,react,nodejs,docker" mt={10}></Image>
           </Box>
