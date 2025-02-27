@@ -16,7 +16,7 @@ function HeroSection() {
         animate={{ scale: 1 }}
         transition={{ delay: 0.2, type: "spring", stiffness: 260, damping: 20 }}
       >
-        <img src="src\assets\images\kento.png" alt="プロフィール画像" className="profile-image" />
+        <img src="images/kento.png" alt="プロフィール画像" className="profile-image" />
       </motion.div>
       <motion.h1 className="hero-title" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.3 }}>
         久貝建都
