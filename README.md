@@ -1,4 +1,4 @@
-# KugaiKento 4月からwebエンジニア!
+# 新卒のエンジニア
 
 <p align="left"> 
   <img alt="Top Langs" height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KugaiKento&layout=compact&show_icons=true&theme=onedark" />
