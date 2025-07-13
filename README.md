@@ -8,10 +8,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=150&section=header&animation=twinkling"/>
 </div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Kento+%F0%9F%91%8B;Web Engineer" alt="Typing SVG" />
-</div>
-
 ## 🌟 **About Me**
 
 <div align="center">
