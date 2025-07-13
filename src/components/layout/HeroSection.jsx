@@ -30,7 +30,7 @@ function HeroSection() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5 }}
       >
-株式会社メンバーズ
+      株式会社メンバーズ
       </motion.p>
     </motion.section>
   )

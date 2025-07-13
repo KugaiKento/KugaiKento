@@ -4,9 +4,9 @@ import "../../styles/HobbiesSection.css"
 
 function HobbiesSection() {
   const hobbies = [
-    { title: "ゲーム", description: "マイクラ、第五人格、ポケポケなどー", icon: "🎮" },
-    { title: "美味しいものいっぱい食べに行くこと", description: "カフェに行ったり", icon: "📚" },
-    { title: "本屋さんに行くこと", description: "ジュンク堂によく行きます！主にプログラミングの技術書などを見るのが好きで新しい本が追加されていたらテンション上がります!", icon: "🥾" },
+    { title: "本を読むこと", description: "技術書とか", icon: "🎮" },
+    { title: "水泳", description: "小学校からやってる。今もたまに趣味で泳ぎに行ったりする", icon: "📚" },
+    { title: "音楽関連", description: "KPOP:ILLIT、QWER", icon: "🥾" },
   ]
 
   return (

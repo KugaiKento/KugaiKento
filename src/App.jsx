@@ -1,7 +1,7 @@
 import HeroSection from "./components/layout/HeroSection"
 import SkillsSection from "./components/layout/SkillsSection"
 import HobbiesSection from "./components/layout/HobbiesSection"
-import ContactSection from "./components/layout/ContactSection"
+// import ContactSection from "./components/layout/ContactSection"
 
 import "./styles/App.css"
 
@@ -13,7 +13,7 @@ function App() {
           <HeroSection />
           <SkillsSection />
           <HobbiesSection />
-          <ContactSection />
+          {/* <ContactSection /> */}
         </main>
       </div>
     </div>
