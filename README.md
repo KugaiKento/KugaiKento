@@ -3,9 +3,15 @@
 - 🌱 Exploring **HTML,CSS & JavaScript**   
 ---
 
+<p align="center">
+  <a href="https://your-website.com" target="_blank">
+    <img src="https://img.shields.io/badge/About-My%20Website-36BCF7?style=for-the-badge&logo=google-chrome&logoColor=white" />
+  </a>
+</p>
+
 ## 🛠️ My Favorite Programming Languages & Frameworks
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,html,css,react,nodejs" />
+  <img src="https://skillicons.dev/icons?i=js,html,css,nodejs,tailwind" />
 </p>
 
 ---
