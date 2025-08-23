@@ -13,7 +13,6 @@ function App() {
           <HeroSection />
           <SkillsSection />
           <HobbiesSection />
-          {/* <ContactSection /> */}
         </main>
       </div>
     </div>

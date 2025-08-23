@@ -7,7 +7,7 @@ function SkillsSection() {
 
   return (
     <section className="skills-section">
-      <h2 className="section-title">スキル</h2>
+      <h2 className="section-title">お気に入りの言語</h2>
       <motion.div
         className="skills-container"
         variants={{

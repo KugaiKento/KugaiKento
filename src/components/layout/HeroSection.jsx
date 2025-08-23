@@ -22,7 +22,7 @@ function HeroSection() {
         久貝建都
       </motion.h1>
       <motion.p className="hero-subtitle" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }}>
-        Webサービス・開発エンジニア
+      Webエンジニア
       </motion.p>
       <motion.p
         className="hero-description"
