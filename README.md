@@ -21,6 +21,3 @@
   <img src="https://github-readme-stats.vercel.app/api?username=KugaiKento&show_icons=true&theme=tokyonight" height="150" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=KugaiKento&theme=tokyonight" height="150" />
 </p>
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=KugaiKento&theme=gruvbox&margin-w=15&margin-h=15" alt="trophy"/>
-</p>
