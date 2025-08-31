@@ -1,6 +1,9 @@
 ## 🚀 About KugaiKento  
+
+<p>
 はじめまして、新卒のwebエンジニアのKentoと言います。JavaScriptを中心に学習を進めています。
-最強のJavaScripter目指してます。
+</p>
+
 ---
 
 <p align="center">
