@@ -2,6 +2,7 @@
 
 <p>
 はじめまして、新卒のwebエンジニアのKentoと言います。JavaScriptを中心に学習を進めています。
+https://github.com/KugaiKento/JavaScript-Tutorial
 </p>
 
 ---
