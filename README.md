@@ -16,7 +16,7 @@ https://github.com/KugaiKento/JavaScript-Tutorial
 </p>
 
 ## 🛠️ My Favorite Programming Languages & Frameworks
-<p align="center">
+<p>
   <img src="https://skillicons.dev/icons?i=js,html,css,nodejs,tailwind" />
 </p>
 
