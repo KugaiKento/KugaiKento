@@ -6,8 +6,9 @@
 
 ---
 
+<p align="center">自己紹介サイトです。クリックできます。</p>
+  
 <p align="center">
-  <p>自己紹介サイトです。クリックできます。</p>
   <a href="https://kugai-kento-three.vercel.app" target="_blank">
     <img src="https://img.shields.io/badge/About-My%20Website-36BCF7?style=for-the-badge&logo=google-chrome&logoColor=white" />
   </a>
