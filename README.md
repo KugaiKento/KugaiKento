@@ -7,7 +7,7 @@ https://github.com/KugaiKento/JavaScript-Tutorial
 
 ---
 
-<p align="center">自己紹介サイトです。クリックできます。</p>
+<p>自己紹介サイトです。クリックできます。</p>
   
 <p align="center">
   <a href="https://kugai-kento-three.vercel.app" target="_blank">
