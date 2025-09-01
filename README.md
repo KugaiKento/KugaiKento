@@ -22,7 +22,7 @@ https://github.com/KugaiKento/JavaScript-Tutorial
 
 ---
 
-## 📊 ステータス(しょぼいです)
+## 📊 ステータス
 <p>
   <img src="https://github-readme-stats.vercel.app/api?username=KugaiKento&show_icons=true&theme=tokyonight" height="150" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=KugaiKento&theme=tokyonight" height="150" />
