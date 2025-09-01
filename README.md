@@ -1,4 +1,4 @@
-## 🚀 About KugaiKento  
+## 🚀 自己紹介 
 
 <p>
 はじめまして、新卒のwebエンジニアのKentoと言います。JavaScriptを中心に学習を進めています。
@@ -15,14 +15,14 @@ https://github.com/KugaiKento/JavaScript-Tutorial
   </a>
 </p>
 
-## 🛠️ My Favorite Programming Languages & Frameworks
+## 🛠️ お気に入りのプログラミング言語
 <p>
   <img src="https://skillicons.dev/icons?i=js,html,css,nodejs,tailwind" />
 </p>
 
 ---
 
-## 📊 Status
+## 📊 ステータス(しょぼいです)
 <p>
   <img src="https://github-readme-stats.vercel.app/api?username=KugaiKento&show_icons=true&theme=tokyonight" height="150" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=KugaiKento&theme=tokyonight" height="150" />
