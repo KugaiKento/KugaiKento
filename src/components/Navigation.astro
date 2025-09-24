@@ -1,0 +1,31 @@
+---
+const navigation = [
+  { name: "ホーム", href: "/" },
+  { name: "ブログ", href: "/blog" },
+  { name: "GitHub", href: "https://github.com/" },
+];
+---
+
+<nav class="nav">
+    <ul class="nav__list">
+        {navigation.map((item) => (
+            <li class="nav__link">
+                <a href={item.href}>{item.name}</a>
+            </li>
+        ))}
+    </ul>
+</nav>
+
+<style lang="scss">
+    .nav {
+        &__list {
+            display: flex;
+            gap: 15px;
+            
+        }
+
+        &__link a {
+            color: #262626;
+        }
+    }
+</style>

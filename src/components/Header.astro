@@ -1,0 +1,33 @@
+---
+import Navigation from "./Navigation.astro";
+
+const heading: string = "My Landing Page"
+const uppercaseHeading = heading.toUpperCase()
+---
+
+<header class="header">
+    <div class="header__container">
+        <h1 class="header__logo">{uppercaseHeading}</h1>
+        <Navigation/>
+    </div>
+</header>
+
+
+<style lang="scss">
+.header {
+  background-color: white;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  &__logo {
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    color: #262626;
+  }
+}
+
+</style>
