@@ -1,5 +1,4 @@
 ---
-import Hamburger from "./Hamburger.astro";
 const navigation = [
   { name: "ホーム", href: "/" },
   { name: "ブログ", href: "/blog" },
@@ -8,32 +7,97 @@ const navigation = [
 ---
 
 <nav class="nav">
-    <ul class="nav__list">
+    <ul class="nav__list" id="nav__list">
         {navigation.map((item) => (
             <li class="nav__link">
                 <a href={item.href}>{item.name}</a>
             </li>
         ))}
     </ul>
-    <Hamburger/>
+    <!-- hamburgerメニュー -->
+    <div class="hamburger" id="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+    </div>
 </nav>
 
 <style lang="scss">
-    .nav {
-        &__list {
-            display: flex;
-            gap: 15px;
-            
-        }
-
-        &__link a {
-            color: #262626;
-        }
+.nav {
+    &__list {
+        display: flex;
+        gap: 15px;
     }
 
-    @media screen and (max-width: 400px) {
+    &__link a {
+        color: #262626;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
     .nav__list {
-        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 5rem;
+        background-color: #f2f2f2;
+        overflow: hidden;
+        transform: translateX(100%);
+        transition: all .5s;
+    }
+
+    .isactive {
+        transform: translateX(0);
+        transition: all .5s;
+    }
+
+    .nav__link {
+        font-size: 18px;
+    }
+
+    .nav__link a {
+        color: rgb(52, 52, 52);
+    }
+}
+
+// hamburgerメニューのコード
+.hamburger {
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.hamburger .line {
+  width: 30px;
+  height: 3px;
+  background-color: #262626;
+  z-index: 2;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 400px) {
+    .hamburger {
+        display: flex;
     }
 }
 </style>
+
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const nav = document.getElementById('nav__list');
+
+    hamburger?.addEventListener('click', () =>{
+        nav?.classList.toggle('isactive')
+    })
+</script>
