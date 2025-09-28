@@ -1,5 +1,5 @@
 ---
-import { Icon } from 'astro-icon/components'
+import Hamburger from "./Hamburger.astro";
 const navigation = [
   { name: "ホーム", href: "/" },
   { name: "ブログ", href: "/blog" },
@@ -15,6 +15,7 @@ const navigation = [
             </li>
         ))}
     </ul>
+    <Hamburger/>
 </nav>
 
 <style lang="scss">
@@ -29,4 +30,10 @@ const navigation = [
             color: #262626;
         }
     }
+
+    @media screen and (max-width: 400px) {
+    .nav__list {
+        display: none;
+    }
+}
 </style>
