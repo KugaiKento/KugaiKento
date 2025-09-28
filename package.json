@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "kugaikento",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "astro": "^5.13.7",
+    "astro-icon": "^1.1.5",
     "microcms-js-sdk": "^3.2.0",
     "sass": "^1.92.1"
   }
