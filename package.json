@@ -9,6 +9,8 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@iconify-json/heroicons": "^1.2.3",
+    "@iconify-json/mdi": "^1.2.3",
     "astro": "^5.13.7",
     "astro-icon": "^1.1.5",
     "microcms-js-sdk": "^3.2.0",
