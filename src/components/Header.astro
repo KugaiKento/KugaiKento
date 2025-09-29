@@ -15,7 +15,12 @@ const uppercaseHeading = heading.toUpperCase()
 
 <style lang="scss">
 .header {
-  background-color: white;
+  background-color: transparent;
+  width: 100%;
+  position: fixed; 
+  top: 0;             
+  left: 0;
+  z-index: 1000;  
 
   &__container {
     display: flex;

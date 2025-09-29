@@ -1,0 +1,48 @@
+---
+
+---
+
+<div id="hero" class="hero">
+  <div class="container">
+    <h1 class="hero__title">WE ARE A<br> LANDING PAGE</h1>
+  </div>
+</div>
+
+<style lang="scss">
+    .hero {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__title {
+          font-size: clamp(4rem, 3rem + 4.25vw, 5.125rem);
+          text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 400px){
+
+    }
+</style>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" is:inline></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js" is:inline></script>
+
+<script is:inline>
+VANTA.GLOBE({
+  el: "#hero",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x90909,
+  color2: 0x0,
+  size: 0.90,
+  backgroundColor: 0xffffff
+})
+</script>
