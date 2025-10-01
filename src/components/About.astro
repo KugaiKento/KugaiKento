@@ -5,14 +5,48 @@
 <div class="about">
     <div class="container">
         <h2 class="about__title">About Us</h2>
+        <figure class="about__content">
+            <img src="https://dummyimage.com/400x400/000/fff" alt="">
+                <div class="about__text">
+                    <h2>KentoKugai</h2>
+                    <p>新卒でwebエンジニアをしています。Jamstack構成を用いた静的サイトの制作やヘッドレスCMSを用いたブログサイトの制作が得意です。</p>
+                    <p>業務では、JavaScript、React、Astroといったフレームワークをよく使用しています。宜しくお願い致します</p>
+                    <div class="about__feature">
+                        <strong>My Favorite Programming Languages & Frameworks</strong>
+                        <p>HTML,CSS,JavaScript,Astro,React</p>
+                    </div>
+                    <p>You can check out my projects on <a href="https://github.com/KugaiKento" target="_blank">GitHub</a>!</p>
+                </div>
+        </figure>
     </div>
 </div>
 
 
 <style lang="scss">
+    .container {
+        max-width: 1080px;
+        width: 100%;
+        margin: 0 auto;
+    }
     .about__title {
         padding: 40px 10px 30px 10px;
         font-size: clamp(2rem, 2rem + 2.5vw, 3.25rem);
         text-align: center;
+    }
+
+    .about__content {
+        display: flex;
+    }
+
+    .about__content img {
+        padding: 0 40px 40px 40px;
+    }
+
+    .about__feature {
+        padding-top: 20px;
+    }
+
+    .about__text > p {
+        padding-top: 10px;
     }
 </style>
