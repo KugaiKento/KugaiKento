@@ -1,5 +1,27 @@
 ---
-
+import { getBlogs } from "../libraly/microcms"
+const responce = await getBlogs({fields: ["id","title"]});
 ---
 
-<h2>Blog</h2>
+<div class="section">
+    <div class="container">
+        <div class="content-section">
+            <div class="title">
+                <h1>Blog Posts</h1>
+            </div>
+            <div class="content">
+                <ul>
+		        {responce.contents.map((content) => 
+			        <li><a href={content.id}>{content.title}</a></li>
+		        )}
+	            </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .title h1 {
+        text-transform: uppercase;
+    }
+</style>
